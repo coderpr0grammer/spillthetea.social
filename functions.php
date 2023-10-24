@@ -3,7 +3,7 @@
     session_start();
     setcookie('likes', json_encode(array()), time() + (10 * 365 * 24 * 60 * 60));
 
-    $link = mysqli_connect("localhost", "admin_confession", "Danico2003", "admin_confession");
+    $link = mysqli_connect("localhost", "username", "password", "db_user");
     $GLOBALS["link"] = $link;
     if (mysqli_connect_errno()) {
 
