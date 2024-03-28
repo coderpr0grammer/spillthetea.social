@@ -1,6 +1,6 @@
 <?php
 
-    $link = mysqli_connect("localhost", "admin_confession", "Danico2003", "admin_confession");
+    $link = mysqli_connect("localhost", "my_user", "my_pass", "my_db");
 
     if ( mysqli_connect_error()) {
 
